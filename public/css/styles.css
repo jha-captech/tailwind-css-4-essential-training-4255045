@@ -1118,6 +1118,12 @@
       border-bottom-left-radius: var(--radius-lg);
     }
   }
+  .sm\:rounded-r-none {
+    @media (width >= 40rem) {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
   .sm\:p-0 {
     @media (width >= 40rem) {
       padding: calc(var(--spacing) * 0);
